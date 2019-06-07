@@ -1,11 +1,34 @@
-# vue-ts-demo
+# vue-typescript-starter
 
-> A Vue.js project
+> 这个项目起始于在vue加入强类型的念头，目的是提供一个手脚架快速上手和开始, 主要是基于vue + typescript 使用 .vue 单文件开发脚手架，支持jsx
 
-## Build Setup
+## 此repo是基于[Vue + TypeScript 新项目起手式](https://juejin.im/post/59f29d28518825549f7260b6)逐步实现的
+
+如果你按照文章没有配出来的话，可以参考这个项目的代码，进行比较
+
+## 特性
+- webpack4
+- vue
+- vue-router
+- vuex
+- typescript
+- jsx
+- tslint
+- 单vue文件开发
+- vue-cli
+- ~~eslint~~
+
+## 开始
 
 ``` bash
-# install dependencies
+
+#  To create a new vue + typescript project, run:
+vue init
+
+# then
+cd `your project name`
+
+# Install project dependencies
 npm install
 
 # serve with hot reload at localhost:8080
@@ -14,17 +37,4 @@ npm run dev
 # build for production with minification
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
