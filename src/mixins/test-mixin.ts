@@ -18,7 +18,11 @@ import { Vue, Component } from 'vue-property-decorator'
 export default class TestMixin extends Vue {
   testMixinArg: string = 'this is test mixin arg'
 
-  testMixinFunc (): void {
+  testMixinFunc(): void {
     console.log('this string is from test mixin console.log')
+  }
+
+  testMixinFunc2() {
+    return 'testMininFunc2'
   }
 }
