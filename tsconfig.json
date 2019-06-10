@@ -8,7 +8,10 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": ["*", "src/*"]
+      "@/*": [
+        "*",
+        "src/*"
+      ]
     },
     "jsx": "preserve",
     "jsxFactory": "h",
@@ -19,6 +22,10 @@
     "target": "es5",
     "moduleResolution": "node",
     "isolatedModules": true,
+    "typeRoots": [
+      "./types",
+      "./node_modules/vue/types"
+    ],
     "lib": [
       "dom",
       "es5",
